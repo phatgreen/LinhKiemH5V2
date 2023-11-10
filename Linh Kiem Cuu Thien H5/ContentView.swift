@@ -32,8 +32,3 @@ struct ContentView: View {
     }
 
 }
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView(homeUrl: URL(string: "http://linhkiem.fun")!)
-    }
-}
