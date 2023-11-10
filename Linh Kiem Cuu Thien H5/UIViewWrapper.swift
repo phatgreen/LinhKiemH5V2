@@ -17,10 +17,6 @@ struct UIViewWrapper: UIViewRepresentable {
         view.uiDelegate = context.coordinator
         view.navigationDelegate = context.coordinator
 
-        // Gọi phương thức để thiết lập cache khi offline
-        let preferences = view.configuration.preferences
-        preferences._setOfflineApplicationCacheIsEnabled(true)
-
         return view
     }
     
